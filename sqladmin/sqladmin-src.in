@@ -1,0 +1,2 @@
+CLASSPATH=$CLASSPATH:/usr/local/lib/sunXML/jaxp.jar:/usr/local/lib/sunXML/crimson.jar:.:/usr/local/libexec
+JDBC_DIR=/usr/local/lib/jdbc

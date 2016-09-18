@@ -1,0 +1,47 @@
+Compilation (optional, but recommended)
+-------------------------------------------
+
+Edit the file config.mak and fill the following
+
+JDBC_DIR is where you have your .JAR files containing the JDBC drivers you want to use
+	Any .JAR file there will be included in the CLASSPATH.
+	You can also create a directory wich contains symbolic links to the real files.
+
+	If you are unsure, just leave it blank
+
+
+SUN_XML_DIR is where your jaxp (Java API for XMP Processing) distribution reside
+	The files crimson.jar and jaxp.jar will be included in the classpath from there
+
+	If you are unsure.  Read the requirements section in the sqladmin README file 
+
+INSTALL_DIR a valid base path where /sqladmin will be installed.
+
+To compile, just type "make"
+
+
+
+Installation
+--------------
+If you have compiled the source code, you are ready.  If not, please review the  config.mak
+file with the instructions above.
+
+To install, as root  type "make install"
+
+
+
+Execution
+-----------
+Type "sqladmin"
+
+
+
+Uninstall
+----------
+The installer puts all under INSTALL_DIR/sqladmin and creates a symbolic link from /usr/local/bin/sqladmin
+to INSTALL_DIR/sqladmin/sqladmin.sh
+
+---
+Franco Catrin L.
+sqladmin Linux packager
+fcatrin@tuxpan.cl

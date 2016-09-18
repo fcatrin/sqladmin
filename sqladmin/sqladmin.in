@@ -1,0 +1,6 @@
+export CLASSPATH=$CLASSPATH:$SQLADMIN
+for i in $JDBC_DIR/*.jar
+	do CLASSPATH=$CLASSPATH:$i
+done
+echo $CLASSPATH
+java sqladmin.Main

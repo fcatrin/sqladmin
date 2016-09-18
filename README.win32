@@ -1,0 +1,14 @@
+Installation 
+----------------------------
+Distribution file expanded at c:\Java\SQL
+  Contents of C:\Java\SQL
+    sqladmin: classes directory (sources and compiled code)
+    images:   jpg images for buttons and menus
+jaxp instalation directory c:\Java\jaxp-1.1
+  Contents: jaxp.jar, xalan.jar and crismon.jar
+
+execution script:
+java -cp "c:\Java\SQL;c:\Java\jaxp-1.1\jaxp.jar;c:\Java\jaxp-1.1\crismon.jar;c:\Java\jaxp-1.1\xalan.jar" sqladmin.Main
+
+Jorge Jimenez C.
+jota@tuxpan.cl

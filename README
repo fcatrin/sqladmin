@@ -1,0 +1,49 @@
+Introduction.
+-------------
+sqladmin is a Java based free tool for sending queries and editing table contents using any jdbc driver.
+
+This tool allows exporting and importing table rows to and from XML files You can also save and
+load SQL text queries for future use.
+
+Feel free to make changes to source code and send any comments.
+
+Requirements.
+-------------
+You need 
+1. Java 2 Runtime Environment (1.2 and avobe) 
+	http://java.sun.com
+
+2. jaxp. Java API for XML processing.  Avalaible from Sun Microsystems
+	http://java.sun.com/xml/downloads/javaxmlpack.html
+
+3. Java 2 SDK to compile (optional)
+
+
+Install instructions
+----------------------
+Read README.linux and README.win32 for plaftorm specific instructions.
+
+Files
+------------------
+doc/
+	Package documentation
+
+sqladmin/	
+	Binary distribution
+
+src/		
+	Source distribution
+
+README		
+	This file
+
+README.linux
+	Specific Linux notes
+
+README win32
+	Specific win32 notes
+
+
+--
+Jorge Jimenez C.
+jota@tuxpan.cl
